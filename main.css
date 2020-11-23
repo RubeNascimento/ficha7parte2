@@ -64,6 +64,25 @@ body {
   list-style: none;
 }
 
+.nav__link:link, .nav__link:visited {
+  display: block;
+  padding: 1.5rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav__link:hover, .nav__link:active {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
 .copyright {
   display: -webkit-box;
   display: -ms-flexbox;
