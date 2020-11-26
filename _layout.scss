@@ -50,6 +50,14 @@
             background-color: currentColor;
         }
     }
+    &__logo {
+        height: 5rem;
+        justify-self: center;
+    }
+    &__btn {
+        align-self: start;
+        justify-self: start;
+    }
 }
 .footer {
     background-color: $color-secondary;
