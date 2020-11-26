@@ -36,6 +36,15 @@ body {
 }
 
 .sidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem;
+  font-size: 4rem;
+  color: #fff;
   background-color: #009E74;
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1/-1;
